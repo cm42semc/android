@@ -1,4 +1,4 @@
-CyanogenMod
+CyanogenMod for Xperia 2011
 ===========
 
 Submitting Patches
