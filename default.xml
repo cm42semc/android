@@ -257,12 +257,12 @@
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
-  <project path="hardware/ti/fmradio" name="CyanogenMod/android_hardware_ti_fmradio" />
+  <project path="hardware/ti/fmradio" name="CyanogenMod/android_hardware_ti_fmradio" revision="jellybean" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="hardware/somc/dash" name="cm42semc/android_hardware_sony_DASH" />
+  <project path="hardware/somc/dash" name="cm42semc/android_hardware_sony_DASH" revision="master" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="jb-mr1-release" />
