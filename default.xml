@@ -209,8 +209,8 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
-  <project path="frameworks/av" name="cm42semc/android_frameworks_av" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
+  <project path="frameworks/av" name="androidarmv6/android_frameworks_av" />
+  <project path="frameworks/base" name="androidarmv6/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="CyanogenMod/android_frameworks_compile_llvm-ndk-cc" />
@@ -237,9 +237,9 @@
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" />
-  <project path="hardware/libhardware" name="Andromadus/android_hardware_libhardware" revision="cm10.1" />
+  <project path="hardware/libhardware" name="androidarmv6/android_hardware_libhardware" revision="cm10.1" />
   <project path="hardware/libhardware_legacy" name="androidarmv6/android_hardware_libhardware_legacy" />
-  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
+  <project path="hardware/msm7k" name="androidarmv6/android_hardware_msm7k" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" />
@@ -247,7 +247,7 @@
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" />
   <project path="hardware/qcom/display-legacy" name="androidarmv6/android_hardware_qcom_display-legacy" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
+  <project path="hardware/qcom/gps" name="androidarmv6/android_hardware_qcom_gps" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" />
   <project path="hardware/qcom/media" name="cm42semc/android_hardware_qcom_media" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" />
@@ -375,6 +375,7 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
+  <project path="vendor/google" name="androidarmv6/android_vendor_google" />
   <project path="vendor/cm" name="androidarmv6/android_vendor_cm" />
   <project path="device/common" name="Andromadus/android_device_common" remote="github" revision="cm10.1" />
   <project path="vendor/semc" name="cm42semc/proprietary_vendor_semc" revision="jellybean" />
