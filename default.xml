@@ -376,13 +376,13 @@
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
   <project path="device/common" name="Andromadus/android_device_common" remote="github" revision="cm10.1" />
-  <project path="device/semc/msm7x30-common" name="cm42semc/android_device_semc_msm7x30-common" remote="github" revision="cm-10.1" />
-  <project path="device/semc/mogami-common" name="cm42semc/android_device_semc_mogami-common" remote="github" revision="cm-10.1" />
-  <project path="device/semc/haida" name="cm42semc/android_device_semc_haida" remote="github" revision="cm-10.1" />
-  <project path="device/semc/smultron" name="cm42semc/android_device_semc_smultron" remote="github" revision="cm-10.1" />
-  <project path="device/semc/urushi" name="cm42semc/android_device_semc_urushi" remote="github" revision="cm-10.1" />
-  <project path="device/semc/mango" name="cm42semc/android_device_semc_mango" remote="github" revision="cm-10.1" />
-  <project path="device/semc/coconut" name="cm42semc/android_device_semc_coconut" remote="github" revision="cm-10.1" />
+  <project path="device/semc/msm7x30-common" name="cm42semc/android_device_semc_msm7x30-common" remote="github" />
+  <project path="device/semc/mogami-common" name="cm42semc/android_device_semc_mogami-common" remote="github" />
+  <project path="device/semc/haida" name="cm42semc/android_device_semc_haida" remote="github" />
+  <project path="device/semc/smultron" name="cm42semc/android_device_semc_smultron" remote="github" />
+  <project path="device/semc/urushi" name="cm42semc/android_device_semc_urushi" remote="github" />
+  <project path="device/semc/mango" name="cm42semc/android_device_semc_mango" remote="github" />
+  <project path="device/semc/coconut" name="cm42semc/android_device_semc_coconut" remote="github" />
 
   <project path="vendor/google" name="androidarmv6/android_vendor_google" />
   <project path="vendor/cm" name="androidarmv6/android_vendor_cm" />
