@@ -376,6 +376,7 @@
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
   <project path="device/common" name="Andromadus/android_device_common" remote="github" revision="cm10.1" />
+  <project path="device/semc/msm7x30-common" name="cm42semc/android_device_semc_msm7x30-common" remote="github" />
   <project path="device/semc/mogami-common" name="cm42semc/android_device_semc_mogami-common" remote="github" />
   <project path="device/semc/haida" name="cm42semc/android_device_semc_haida" remote="github" />
   <project path="device/semc/smultron" name="cm42semc/android_device_semc_smultron" remote="github" />
