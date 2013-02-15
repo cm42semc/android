@@ -384,6 +384,7 @@
   <project path="device/semc/urushi" name="cm42semc/android_device_semc_urushi" remote="github" />
   <project path="device/semc/mango" name="cm42semc/android_device_semc_mango" remote="github" />
   <project path="device/semc/coconut" name="cm42semc/android_device_semc_coconut" remote="github" />
+  <project path="kernel/semc/msm7x30" name="cm42semc/semc-kernel-msm7x30" remote="github" />
 
   <project path="vendor/google" name="androidarmv6/android_vendor_google" />
   <project path="vendor/cm" name="androidarmv6/android_vendor_cm" />
