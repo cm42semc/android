@@ -245,7 +245,7 @@
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" />
-  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
+  <project path="hardware/qcom/display" name="cm42semc/android_hardware_qcom_display" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" />
   <project path="hardware/qcom/display-legacy" name="cm42semc/android_hardware_qcom_display-legacy" />
   <project path="hardware/qcom/gps" name="androidarmv6/android_hardware_qcom_gps" />
