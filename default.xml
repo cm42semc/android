@@ -384,9 +384,6 @@
   <project path="device/semc/iyokan" name="cm42semc/android_device_semc_iyokan" />
   <project path="device/semc/urushi" name="cm42semc/android_device_semc_urushi" />
 
-  <project path="device/semc/coconut" name="cm42semc/android_device_semc_coconut" />
-  <project path="device/semc/mango" name="cm42semc/android_device_semc_mango" />
-  <project path="device/semc/satsuma" name="cm42semc/android_device_semc_satsuma" />
   <project path="device/semc/smultron" name="cm42semc/android_device_semc_smultron" />
 
   <project path="kernel/semc/msm7x30" name="cm42semc/semc-kernel-msm7x30"/>
