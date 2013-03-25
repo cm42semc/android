@@ -379,12 +379,8 @@
   <project path="device/semc/msm7x30-common" name="cm42semc/android_device_semc_msm7x30-common" />
   <project path="device/semc/mogami-common" name="cm42semc/android_device_semc_mogami-common" />
 
-  <project path="device/semc/anzu" name="cm42semc/android_device_semc_anzu" />
   <project path="device/semc/haida" name="cm42semc/android_device_semc_haida" />
-  <project path="device/semc/iyokan" name="cm42semc/android_device_semc_iyokan" />
   <project path="device/semc/urushi" name="cm42semc/android_device_semc_urushi" />
-
-  <project path="device/semc/smultron" name="cm42semc/android_device_semc_smultron" />
 
   <project path="kernel/semc/msm7x30" name="cm42semc/semc-kernel-msm7x30"/>
 
