@@ -360,7 +360,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
 
   <project path="sdk" name="CyanogenMod/android_sdk" />
-  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
+  <project path="system/bluetooth" name="cm42semc/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
