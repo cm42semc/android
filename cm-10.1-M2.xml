@@ -378,4 +378,5 @@
   <project path="external/bluetooth/bluez" name="cm42semc/android_external_bluetooth_bluez" />
   <project path="external/bluetooth/glib" name="cm42semc/android_external_bluetooth_glib" />
   <project path="external/bluetooth/hcidump" name="cm42semc/android_external_bluetooth_hcidump" />
+  <project path="packages/apps/Settings_msm" name="cm42semc/android_packages_apps_Settings_msm" />
 </manifest>
