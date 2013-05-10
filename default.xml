@@ -400,5 +400,6 @@
   <project path="packages/apps/Settings_msm" name="cm42semc/android_packages_apps_Settings_msm" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7-linaro" name="cm42semc/android_prebuilts_gcc_linux-x86_arm_arm-eabi-linaro-4.7" revision="jellybean" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.6" name="cm42semc/prebuilts-gcc-linux-x86-arm-arm-eabi-4.6" revision="dev-mips-jb-mr1" />
+  <project name="br101/android_external_iw" path="external/iw" revision="master" />
   
 </manifest>
