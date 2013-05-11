@@ -387,7 +387,7 @@
   <project path="device/semc/urushi" name="cm42semc/android_device_semc_urushi" />
   <project path="device/semc/smultron" name="cm42semc/android_device_semc_smultron" />
 
-  <project path="kernel/semc/msm7x30" name="cm42semc/msm7x30-3.0.x-nAa"/>
+  <project path="kernel/semc/msm7x30" name="cm42semc/msm7x30-3.4.x-nAa"/>
 
   <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" revision="jellybean" />
   <project path="hardware/ti/fmradio" name="cm42semc/android_hardware_ti_fmradio" revision="jellybean" />
