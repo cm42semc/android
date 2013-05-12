@@ -17,7 +17,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="cm42semc/android_build">
+  <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -56,7 +56,7 @@
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
-  <project path="external/bluetooth/bluedroid" name="cm42semc/android_external_bluetooth_bluedroid" />
+  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
@@ -208,7 +208,7 @@
   <project path="external/webp" name="CyanogenMod/android_external_webp" />
   <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" />
   <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" />
-  <project path="external/wpa_supplicant_8" name="cm42semc/android_external_wpa_supplicant_8" />
+  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" />
   <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" />
   <project path="external/xmlwriter" name="CyanogenMod/android_external_xmlwriter" />
   <project path="external/xmp_toolkit" name="CyanogenMod/android_external_xmp_toolkit" />
@@ -216,7 +216,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="cm42semc/android_frameworks_av" />
-  <project path="frameworks/base" name="cm42semc/android_frameworks_base" />
+  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="CyanogenMod/android_frameworks_compile_llvm-ndk-cc" />
@@ -266,13 +266,13 @@
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
-  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" revision="jellybean" />
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="cm42semc/android_packages_apps_Bluetooth" />
+  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
@@ -299,12 +299,11 @@
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
-  <project path="packages/apps/Phone" name="cm42semc/android_packages_apps_Phone" />
-  <project path="packages/apps/Phone_msm" name="cm42semc/android_packages_apps_Phone_msm" />
+  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" />
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="cm42semc/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpareParts" name="CyanogenMod/android_packages_apps_SpareParts" />
@@ -364,11 +363,11 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
 
   <project path="sdk" name="CyanogenMod/android_sdk" />
-  <project path="system/bluetooth" name="cm42semc/android_system_bluetooth" />
-  <project path="system/core" name="cm42semc/android_system_core" />
+  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
+  <project path="system/core" name="CyanogenMod/android_system_core" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
-  <project path="system/netd" name="cm42semc/android_system_netd" />
+  <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/security" name="CyanogenMod/android_system_security" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
@@ -393,13 +392,7 @@
   <project path="hardware/ti/fmradio" name="cm42semc/android_hardware_ti_fmradio" revision="jellybean" />
 
   <project path="vendor/semc" name="cm42semc/proprietary_vendor_semc" />
-  <project path="packages/apps/Bluetooth_msm" name="cm42semc/android_packages_apps_Bluetooth_msm" />
-  <project path="external/bluetooth/bluez" name="cm42semc/android_external_bluetooth_bluez" />
-  <project path="external/bluetooth/glib" name="cm42semc/android_external_bluetooth_glib" />
-  <project path="external/bluetooth/hcidump" name="cm42semc/android_external_bluetooth_hcidump" />
-  <project path="packages/apps/Settings_msm" name="cm42semc/android_packages_apps_Settings_msm" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7-linaro" name="cm42semc/android_prebuilts_gcc_linux-x86_arm_arm-eabi-linaro-4.7" revision="jellybean" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.6" name="cm42semc/prebuilts-gcc-linux-x86-arm-arm-eabi-4.6" revision="dev-mips-jb-mr1" />
   <project name="br101/android_external_iw" path="external/iw" revision="master" />
-  
 </manifest>
