@@ -252,11 +252,9 @@
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" />
-  <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" revision="cm-10.1_old" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
-  <project path="hardware/qcom/media-legacy" name="arco/android_hardware_qcom_media-legacy" revision="cm-10.1_old" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" />
@@ -385,6 +383,8 @@
   <project path="device/semc/haida" name="cm42semc/android_device_semc_haida" />
   <project path="device/semc/urushi" name="cm42semc/android_device_semc_urushi" />
   <project path="device/semc/smultron" name="cm42semc/android_device_semc_smultron" />
+  <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" revision="cm-10.1" />
+  <project path="hardware/qcom/media-legacy" name="arco/android_hardware_qcom_media-legacy" revision="cm-10.1" />
 
   <project path="kernel/semc/msm7x30" name="cm42semc/msm7x30-3.4.x-nAa"/>
 
