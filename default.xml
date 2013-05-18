@@ -56,7 +56,6 @@
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
-  <project path="external/bluetooth/bluedroid" name="cm42semc/android_external_bluetooth_bluedroid" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
@@ -270,7 +269,6 @@
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="cm42semc/android_packages_apps_Bluetooth" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
@@ -297,12 +295,10 @@
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
-  <project path="packages/apps/Phone" name="cm42semc/android_packages_apps_Phone" />
   <project path="packages/apps/Phone_msm" name="cm42semc/android_packages_apps_Phone_msm" />
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="cm42semc/android_packages_apps_Settings" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpareParts" name="CyanogenMod/android_packages_apps_SpareParts" />
@@ -378,28 +374,22 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
+  <project name="br101/android_external_iw" path="external/iw" revision="master" />
   <project path="device/semc/msm7x30-common" name="cm42semc/android_device_semc_msm7x30-common" revision="cm-10.1-bluez" />
   <project path="device/semc/mogami-common" name="cm42semc/android_device_semc_mogami-common" revision="cm-10.1-bluez" />
-
-  <project path="device/semc/haida" name="cm42semc/android_device_semc_haida" />
-  <project path="device/semc/urushi" name="cm42semc/android_device_semc_urushi" />
   <project path="device/semc/smultron" name="cm42semc/android_device_semc_smultron" revision="cm-10.1-bluez" />
-  <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" revision="cm-10.1" />
-  <project path="hardware/qcom/media-legacy" name="arco/android_hardware_qcom_media-legacy" revision="cm-10.1" />
-
-  <project path="kernel/semc/msm7x30" name="cm42semc/msm7x30-3.4.x-nAa" revision="cm-10.1-bluez" />
-
-  <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" revision="jellybean" />
-  <project path="hardware/ti/fmradio" name="cm42semc/android_hardware_ti_fmradio" revision="jellybean" />
-
-  <project path="vendor/semc" name="cm42semc/proprietary_vendor_semc" revision="cm-10.1-bluez" />
-  <project path="packages/apps/Bluetooth_msm" name="cm42semc/android_packages_apps_Bluetooth_msm" />
   <project path="external/bluetooth/bluez" name="cm42semc/android_external_bluetooth_bluez" />
   <project path="external/bluetooth/glib" name="cm42semc/android_external_bluetooth_glib" />
   <project path="external/bluetooth/hcidump" name="cm42semc/android_external_bluetooth_hcidump" />
+  <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" revision="cm-10.1" />
+  <project path="hardware/qcom/media-legacy" name="arco/android_hardware_qcom_media-legacy" revision="cm-10.1" />
+  <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" revision="jellybean" />
+  <project path="hardware/ti/fmradio" name="cm42semc/android_hardware_ti_fmradio" revision="jellybean" />
+  <project path="kernel/semc/msm7x30" name="cm42semc/msm7x30-3.4.x-nAa" revision="cm-10.1-bluez" />
+  <project path="packages/apps/Bluetooth_msm" name="cm42semc/android_packages_apps_Bluetooth_msm" />
   <project path="packages/apps/Settings_msm" name="cm42semc/android_packages_apps_Settings_msm" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7-linaro" name="cm42semc/android_prebuilts_gcc_linux-x86_arm_arm-eabi-linaro-4.7" revision="jellybean" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.6" name="cm42semc/prebuilts-gcc-linux-x86-arm-arm-eabi-4.6" revision="dev-mips-jb-mr1" />
-  <project name="br101/android_external_iw" path="external/iw" revision="master" />
+  <project path="vendor/semc" name="cm42semc/proprietary_vendor_semc" revision="cm-10.1-bluez" />
   
 </manifest>
